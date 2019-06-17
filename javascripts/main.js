@@ -200,6 +200,7 @@ function draw(data, pop){
             allWords = allWords.concat(row.words[topic]);
         });
     });
+    console.log(allWords)
     //Color based on term
     let terms = [];
     for(i=0; i< allWords.length; i++){
